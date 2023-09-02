@@ -3,7 +3,7 @@ import shopping.cart.CartItem;
 import shopping.payment.CashProcessor;
 import shopping.payment.CreditCardProcessor;
 import shopping.payment.PaymentProcessor;
-import shopping.product.drink.DrinkItem;
+import shopping.product.drink.BeverageItem;
 import shopping.product.food.FoodItem;
 
 public class Main {
@@ -23,9 +23,9 @@ public class Main {
         CartItem food1 = new FoodItem("Pizza", 10.0);
         CartItem food2 = new FoodItem("Pasta", 12.5);
         CartItem food3 = new FoodItem("Chips", 5.9);
-        CartItem drink1 = new DrinkItem("Coca-coca", 2.8);
-        CartItem drink2 = new DrinkItem("Clear-Water", 1.5);
-        CartItem drink3 = new DrinkItem("Juice", 3.0);
+        CartItem drink1 = new BeverageItem("Coca-coca", 2.8);
+        CartItem drink2 = new BeverageItem("Clear-Water", 1.5);
+        CartItem drink3 = new BeverageItem("Juice", 3.0);
 
         shop1.addToCart(food1);
         shop1.addToCart(drink3);
